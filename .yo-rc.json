@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitHubOrganization": "msenthilkumarsam",
+    "baseName": "MicroserviceGateWay",
+    "packageName": "com.web.gateway",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.14.0",
+    "packageFolder": "com/web/gateway",
+    "jwtSecretKey": "8e0dbc998f4de0b8c63034be0f4839b3d3e43763",
+    "jhiPrefix": "jhi"
+  }
+}
